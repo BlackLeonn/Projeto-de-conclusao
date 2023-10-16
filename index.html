@@ -10,22 +10,24 @@
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-        <div id="img"></div>
-        <div id="log">
-            <form action="login.php" method="post" autocomplete="off">
-                <h1>Login</h1>
-                <p>Seja bem-vindo novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
-                    <div class="login" id="div1">
-                        <label for="iemail"><span class="material-symbols-outlined">person</span></label>
-                        <input type="text" name="email" id="iemail" placeholder="seu e-mail">
+        <main>
+            <div id="img"></div>
+            <div id="log">
+                <form action="login.php" method="post" autocomplete="off">
+                    <h1>Login</h1>
+                    <p>Seja bem-vindo novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+                        <div class="login" id="div1">
+                            <label for="iemail"><span class="material-symbols-outlined">person</span></label>
+                            <input type="text" name="email" id="iemail" placeholder="seu e-mail">
+                        </div>
+                    <div class="login">
+                        <label for="isen"><span class="material-symbols-outlined">key</span></label>
+                        <input type="password" name="sen" id="isen" placeholder="sua senha">
                     </div>
-                <div class="login">
-                    <label for="isen"><span class="material-symbols-outlined">key</span></label>
-                    <input type="password" name="sen" id="isen" placeholder="sua senha">
-                </div>
-                <input type="submit" id="submit">
-                <a href="#">Esqueci minha senha</a>
-            </form>
+                    <input type="submit" id="submit">
+                    <a href="#">Esqueci minha senha</a>
+                </form>
+        </main>
     </div>
 </body>
 </html>
