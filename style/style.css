@@ -52,8 +52,9 @@ p{
 }
 
 .material-symbols-outlined{
-    margin-top: 7px;
+    margin-top: 10px;
     margin-right: 3px;
+    font-size: 2em;
 }
 
 div{
@@ -85,7 +86,7 @@ label{
     border-radius: 10px;
     position: absolute;
     padding-bottom: 5px;
-    width: 228px;
+    width: 220px;
     height: 30px;
 }
 
@@ -126,4 +127,5 @@ a:hover{
     position: absolute;
     top: 86%;
     margin-left: 1px;
+    font-size: 1.5em;
 }
